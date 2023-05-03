@@ -90,7 +90,7 @@ def delete_word(text, augmentation_probability = 0.001):
 
 
 if __name__ == "__main__":
-    data_file = "data/data.en.txt" #"data/en.wikidump.processed.24m.txt" #
+    data_file = "data/data.txt" #"data/en.wikidump.processed.24m.txt" #
     language = "en" # "wikidump.24m.en"
     num_lines = sum(1 for line in open(data_file,'r'))
 
